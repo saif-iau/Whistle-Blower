@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ssamic-2-client-side-solution",
+    "id": "afc697ea-aed5-4864-83b9-92607c290bee",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ssamic-2 description"
+      },
+      "longDescription": {
+        "default": "ssamic-2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ssamic-2 Feature",
+        "description": "The feature that activates elements of the ssamic-2 solution.",
+        "id": "3961dd0c-0b5c-4cf1-96ea-9249f45136c2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ssamic-2.sppkg"
+  }
+}

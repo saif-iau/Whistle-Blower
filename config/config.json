@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ssamic-2-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ssamic2/Ssamic2WebPart.js",
+          "manifest": "./src/webparts/ssamic2/Ssamic2WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "Ssamic2WebPartStrings": "lib/webparts/ssamic2/loc/{locale}.js"
+  }
+}
